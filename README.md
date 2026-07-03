@@ -12,3 +12,14 @@
 # Documentation
 - Use `omen-fan help` to see all available subcommands
 - EC Probe documentation can be found at [docs/probes.md](https://github.com/alou-S/omen-fan/blob/main/docs/probes.md)
+- config location: '/etc/omen-fan/config.toml'
+
+# Installation
+- download the pkgbuild
+- run `makepkg -si --clean`
+- run `sudo systemctl enable --now omen-fan.service`
+
+# One Line Installation with cleanup
+- 'mkdir -p omen-fan-build && cd omen-fan-build && curl -LO https://raw.githubusercontent.com/AksharLeo/omen-fan-pkg/main/PKGBUILD && makepkg -si --clean && cd .. && rm -rf omen-fan-build'
+- run `sudo systemctl enable --now omen-fan.service` to enable it
+- the entire pkgbuild is vibecoded slop so review it before use.
