@@ -20,6 +20,6 @@
 - run `sudo systemctl enable --now omen-fan.service`
 
 # One Line Installation with cleanup
-- 'mkdir -p omen-fan-build && cd omen-fan-build && curl -LO https://raw.githubusercontent.com/AksharLeo/omen-fan-pkg/main/PKGBUILD && makepkg -si --clean && cd .. && rm -rf omen-fan-build'
+- `mkdir -p omen-fan-build && cd omen-fan-build && curl -LO https://raw.githubusercontent.com/AksharLeo/omen-fan-pkg/main/PKGBUILD && makepkg -si --clean && cd .. && rm -rf omen-fan-build`
 - run `sudo systemctl enable --now omen-fan.service` to enable it
 - the entire pkgbuild is vibecoded slop so review it before use.
