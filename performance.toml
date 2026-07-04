@@ -1,0 +1,8 @@
+[service]
+TEMP_CURVE = [45, 60, 70, 78, 84, 90]
+SPEED_CURVE = [25, 40, 60, 75, 90, 100]
+IDLE_SPEED = 20
+POLL_INTERVAL = 5.0
+
+[script]
+BYPASS_DEVICE_CHECK = 1
