@@ -64,6 +64,6 @@ ExecStop=/usr/bin/omen-fan e stop
 Restart=on-failure
 
 [Install]
-WantedBy=multi-user.targettarget
+WantedBy=multi-user.target
 EOF
 }
