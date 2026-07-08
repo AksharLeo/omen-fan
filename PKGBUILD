@@ -58,11 +58,12 @@ Description=HP Omen Fan Control Daemon
 After=multi-user.target
 
 [Service]
-Type=simple
-ExecStart=/usr/bin/omen-fand
+Type=forking
+ExecStart=/usr/bin/omen-fan e start
+ExecStop=/usr/bin/omen-fan e stop
 Restart=on-failure
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=multi-user.targettarget
 EOF
 }
